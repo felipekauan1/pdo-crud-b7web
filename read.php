@@ -1,5 +1,5 @@
 <?php
-require_once 'connection.php';  // para ter acesso a $pdo
+require_once 'config/connection.php';  // para ter acesso a $pdo
 
 // cria uma query
 $sql = "SELECT * FROM usuarios";

@@ -1,5 +1,5 @@
 <?php
-require_once 'connection.php';  // para ter acesso a $pdo
+require_once 'config/connection.php';  // para ter acesso a $pdo
 
 // cria uma query de valores como parametros
 $sql = "INSERT INTO usuarios (user_name, nome, password) VALUES (:user_name, :nome, :password)";

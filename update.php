@@ -1,5 +1,5 @@
 <?php
-require_once 'connection.php';  // para ter acesso a $pdo
+require_once 'config/connection.php';  // para ter acesso a $pdo
 
 // cria uma query de valores como parametros
 $sql = "UPDATE usuarios SET user_name = :user_name WHERE id = :id";
